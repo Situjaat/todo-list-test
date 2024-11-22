@@ -1,38 +1,105 @@
-.App {
+body{
+  margin:0;
+  padding:0;
+}
+
+.Main_div {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: rgb(10, 80, 42);
+  font-style: italic;
+  
+}
+.Text_div{
+  padding: 20px;
+
+}
+
+.List_div{
+  padding: 10px;
+  width: 41%;
+  background-color:rgb(246, 249, 253);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+border-radius: 5px;
+margin-top: 20px;
+
+
+}
+
+li{
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+  gap: 20px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: larger;
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+}
+.Text {
+  width: 50%;
+  height: 28px;
+  padding: 5px;
+  border-radius:10px ;
+  
+}
+.Add_btn{
+  width: 15%;
+  margin-left: 25px;
+  height: 35px;
+  background-color:rgb(23, 107, 196);
+  color: white;
+  border-radius: 5px;
+  font-size: large;
+  border: rgb(23, 107, 196);
+}
+.Add_btn:hover{
+  background-color: rgb(29, 99, 157);
+  cursor: pointer;
+}
+
+.Del_btn{
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  color: azure;
+  border-radius: 5px;
+  border: red;
+}
+.Del_btn:hover{
+  background-color: rgb(200, 45, 45);
+  cursor: pointer;
+}
+
+h3{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.RemoveAll_btn{
+  text-align: end;
+  margin-left:35%;
+  margin-top: 20px;
+  background-color:rgb(224, 15, 33);
+  padding: 4px;
+  border-radius: 5px;
   color: white;
+  font-size: large;
+  border: rgb(224, 15, 33);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RemoveAll_btn:hover{
+  background-color: rgb(240, 0, 0);
+  cursor: pointer;
 }
